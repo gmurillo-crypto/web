@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dysolve AI — Voucher Families (AZ &amp; FL)</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-mark"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 5C8.5 5 5 8 5 12"/><path d="M12 19c3.5 0 7-3 7-7"/></svg></div>
+    Dys<em>olve</em> AI
+  </a>
+  <div class="nav-links">
+    <a href="index.html"           class="nav-link">Parents</a>
+    <a href="therapists.html"      class="nav-link">Therapists</a>
+    <a href="voucher-families.html"class="nav-link active">Voucher Families</a>
+    <a href="og-switchers.html"    class="nav-link">OG Switchers</a>
+    <a href="remarketing.html"     class="nav-link">Learn More</a>
+  </div>
+  <a href="https://dysolve.ai" class="nav-cta" id="nav-cta">Start for $99/mo</a>
+</nav>
+
+<div class="page"><div class="hero">
+  <div>
+    <div class="hero-label anim-1" style="background:var(--purple-10);color:var(--purple)"><span class="dot" style="background:var(--purple)"></span><span id="hero-segment"></span></div>
+    <h1 class="anim-2" id="hero-headline"></h1>
+    <p class="hero-sub anim-3" id="hero-sub"></p>
+    <div class="cta-stack anim-4">
+      <a href="https://dysolve.ai" class="btn btn-primary" style="background:var(--purple)" id="hero-cta"></a>
+      <a id="video-link-hero" href="#videos" class="btn btn-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Watch our videos
+      </a>
+      <p class="hero-note" id="hero-note"></p>
+    </div>
+  </div>
+  <!-- SVG: Scholarship → Dysolve → $0 flow -->
+  <div class="illus anim-5" style="background:var(--purple-10)">
+    <svg viewBox="0 0 360 300" width="100%" style="max-width:340px;position:relative;z-index:1">
+      <!-- Step 1 -->
+      <rect x="20" y="60" width="100" height="72" rx="14" fill="white" stroke="#6A4E9E" stroke-width="1.5"/>
+      <rect x="20" y="60" width="100" height="28" rx="14" fill="#6A4E9E"/>
+      <rect x="20" y="76" width="100" height="12" fill="#6A4E9E"/>
+      <text x="70" y="79" text-anchor="middle" font-family="sans-serif" font-size="8.5" font-weight="700" fill="white">SCHOLARSHIP</text>
+      <text x="70" y="104" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#6A4E9E">AZ ESA</text>
+      <text x="70" y="118" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#6A4E9E">FL Step Up</text>
+      <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#10A9AB"/></marker></defs>
+      <path d="M122 96 L148 96" stroke="#10A9AB" stroke-width="2" marker-end="url(#arr)"/>
+      <!-- Step 2 -->
+      <rect x="150" y="60" width="100" height="72" rx="14" fill="#10A9AB"/>
+      <circle cx="200" cy="86" r="18" fill="rgba(255,255,255,.2)"/>
+      <text x="200" y="82" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="white">Dysolve</text>
+      <text x="200" y="95" text-anchor="middle" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,.85)">AI Training</text>
+      <text x="200" y="116" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="600" fill="rgba(255,255,255,.9)">$99/mo</text>
+      <text x="200" y="127" text-anchor="middle" font-family="sans-serif" font-size="7.5" fill="rgba(255,255,255,.75)">billed monthly</text>
+      <path d="M252 96 L278 96" stroke="#10A9AB" stroke-width="2" marker-end="url(#arr)"/>
+      <!-- Step 3 -->
+      <rect x="280" y="60" width="66" height="72" rx="14" fill="white" stroke="#10A9AB" stroke-width="1.5"/>
+      <text x="313" y="96" text-anchor="middle" font-family="'DM Serif Display',serif" font-size="24" fill="#10A9AB">$0</text>
+      <text x="313" y="114" text-anchor="middle" font-family="sans-serif" font-size="7.5" fill="#6B7280">to you</text>
+      <!-- Labels -->
+      <text x="70"  y="150" text-anchor="middle" font-size="8" fill="#6A4E9E" font-weight="600">Your scholarship</text>
+      <text x="200" y="150" text-anchor="middle" font-size="8" fill="#087475" font-weight="600">Pays Dysolve</text>
+      <text x="313" y="150" text-anchor="middle" font-size="8" fill="#10A9AB" font-weight="600">You pay</text>
+      <!-- Child -->
+      <circle cx="100" cy="220" r="28" fill="#EDE8F5"/>
+      <path d="M92 224 Q100 231 108 224" stroke="#6A4E9E" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <!-- Tablet -->
+      <rect x="155" y="185" width="90" height="66" rx="10" fill="white" stroke="#10A9AB" stroke-width="1.5"/>
+      <rect x="162" y="193" width="76" height="46" rx="5" fill="#F0FAFA"/>
+      <circle cx="185" cy="213" r="8" fill="#10A9AB" opacity=".8"/>
+      <circle cx="210" cy="208" r="7" fill="#6A4E9E" opacity=".7"/>
+      <circle cx="225" cy="218" r="9" fill="#10A9AB" opacity=".6"/>
+      <!-- Tick -->
+      <circle cx="280" cy="210" r="26" fill="#10A9AB"/>
+      <text x="280" y="218" text-anchor="middle" font-size="24" fill="white">✓</text>
+      <text x="280" y="252" text-anchor="middle" font-size="8" font-family="sans-serif" font-weight="600" fill="#087475">Approved</text>
+    </svg>
+  </div>
+</div></div>
+
+<div class="proof"><div class="proof-inner" id="stats-row"></div></div>
+
+<div class="video-section" id="videos">
+  <div class="video-section-inner">
+    <div class="video-header">
+      <p class="s-label">Video Library</p>
+      <h2>See Dysolve in action</h2>
+    </div>
+    <div class="video-frame-wrap">
+      <iframe id="video-iframe" allowfullscreen loading="lazy" title="Dysolve Video Library"></iframe>
+    </div>
+    <div style="text-align:center;margin-top:1.2rem">
+      <a id="video-folder-btn" href="#" target="_blank" class="btn-video">
+        <svg viewBox="0 0 24 24" fill="white" width="16" height="16"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+        Open Full Video Library
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="section"><div class="page">
+  <p class="s-label reveal">How to use your scholarship</p>
+  <h2 class="s-title reveal" id="how-title"></h2>
+  <p class="s-sub reveal" id="how-sub"></p>
+  <div class="steps" id="steps-grid"></div>
+</div></div>
+
+<div class="section section-teal"><div class="page">
+  <p class="s-label reveal">Why Dysolve</p>
+  <h2 class="s-title reveal" id="versus-title"></h2>
+  <div class="versus" id="versus-grid"></div>
+</div></div>
+
+<div class="section"><div class="page">
+  <p class="s-label reveal">Simple Pricing</p>
+  <h2 class="s-title reveal">$99/mo billed. $0 to you.</h2>
+  <div class="pricing-grid">
+    <div class="price-card reveal">
+      <div class="price-badge" style="background:var(--purple-10);color:var(--purple)">🎓 Scholarship Accepted</div>
+      <div class="price-amount"><span class="num" style="color:var(--purple)">$0</span><span class="per">/out-of-pocket</span></div>
+      <p style="font-size:.82rem;color:var(--muted);margin-bottom:1.2rem">$99/mo billed · 100% reimbursed via AZ ESA or FL Step Up</p>
+      <ul class="feature-list" id="feature-list"></ul>
+      <div class="guarantee-box"><span class="guarantee-icon">🎓</span><span id="guarantee-text"></span></div>
+      <a href="https://dysolve.ai" class="btn btn-primary btn-full" style="background:var(--purple)">Use your scholarship →</a>
+    </div>
+    <div class="pricing-illus">
+      <svg viewBox="0 0 240 240" width="200">
+        <circle cx="120" cy="120" r="110" fill="var(--purple-10)" stroke="var(--purple-20)" stroke-width="2"/>
+        <circle cx="120" cy="120" r="78" fill="white" stroke="var(--purple-20)" stroke-width="1.5"/>
+        <text x="120" y="105" text-anchor="middle" font-family="'DM Serif Display',serif" font-size="42" fill="#6A4E9E">$0</text>
+        <text x="120" y="126" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="600" fill="#6B7280">OUT-OF-POCKET</text>
+        <text x="120" y="142" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#94A3B8">via AZ ESA · FL Step Up</text>
+        <circle cx="120" cy="120" r="108" fill="none" stroke="#6A4E9E" stroke-width="1.5" stroke-dasharray="7 5"/>
+        <circle cx="120" cy="12"  r="14" fill="#6A4E9E"/><text x="120" y="17"  text-anchor="middle" font-size="14" fill="white">✓</text>
+        <circle cx="228" cy="120" r="14" fill="#10A9AB"/><text x="228" y="125" text-anchor="middle" font-size="14" fill="white">✓</text>
+        <circle cx="12"  cy="120" r="14" fill="#6A4E9E"/><text x="12"  y="125" text-anchor="middle" font-size="14" fill="white">✓</text>
+        <circle cx="120" cy="228" r="14" fill="#10A9AB"/><text x="120" y="233" text-anchor="middle" font-size="14" fill="white">✓</text>
+      </svg>
+    </div>
+  </div>
+</div></div>
+
+<div class="section section-alt"><div class="page">
+  <p class="s-label">Common Questions</p>
+  <h2 class="s-title">Questions families ask</h2>
+  <div class="faq-wrap" id="faq-wrap"></div>
+</div></div>
+
+<div class="bottom-cta" style="background:var(--purple)">
+  <h2 id="cta-headline"></h2>
+  <p id="cta-body"></p>
+  <a href="https://dysolve.ai" class="btn-white" style="color:var(--purple)" id="cta-button"></a>
+  <p class="bottom-note" id="cta-note"></p>
+</div>
+
+<footer>
+  <span id="footer-copy"></span>
+  <span>Questions? <a href="https://dysolve.ai">dysolve.ai</a></span>
+</footer>
+
+<script src="assets/content.js"></script>
+<script src="assets/app.js"></script>
+<script>initPage('voucherFamilies');</script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dysolve AI — Therapists &amp; Specialists</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-mark"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 5C8.5 5 5 8 5 12"/><path d="M12 19c3.5 0 7-3 7-7"/></svg></div>
+    Dys<em>olve</em> AI
+  </a>
+  <div class="nav-links">
+    <a href="index.html"           class="nav-link">Parents</a>
+    <a href="therapists.html"      class="nav-link active">Therapists</a>
+    <a href="voucher-families.html"class="nav-link">Voucher Families</a>
+    <a href="og-switchers.html"    class="nav-link">OG Switchers</a>
+    <a href="remarketing.html"     class="nav-link">Learn More</a>
+  </div>
+  <a href="https://dysolve.ai" class="nav-cta" id="nav-cta">Start for $99/mo</a>
+</nav>
+
+<div class="page"><div class="hero">
+  <div>
+    <div class="hero-label anim-1" style="background:var(--purple-10);color:var(--purple)"><span class="dot" style="background:var(--purple)"></span><span id="hero-segment"></span></div>
+    <h1 class="anim-2" id="hero-headline"></h1>
+    <p class="hero-sub anim-3" id="hero-sub"></p>
+    <div class="cta-stack anim-4">
+      <a href="https://dysolve.ai" class="btn btn-primary" id="hero-cta"></a>
+      <a id="video-link-hero" href="#videos" class="btn btn-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Watch our videos
+      </a>
+      <p class="hero-note" id="hero-note"></p>
+    </div>
+  </div>
+  <!-- SVG: Brain network + specialist + AI -->
+  <div class="illus anim-5" style="background:var(--purple-10)">
+    <svg viewBox="0 0 360 300" width="100%" style="max-width:340px;position:relative;z-index:1">
+      <ellipse cx="180" cy="120" rx="90" ry="75" fill="none" stroke="#6A4E9E" stroke-width="1.5" opacity=".25"/>
+      <circle cx="140" cy="85"  r="9" fill="#6A4E9E"/>
+      <circle cx="220" cy="85"  r="9" fill="#10A9AB"/>
+      <circle cx="120" cy="120" r="7" fill="#10A9AB" opacity=".8"/>
+      <circle cx="240" cy="120" r="7" fill="#6A4E9E" opacity=".8"/>
+      <circle cx="180" cy="75"  r="11" fill="#10A9AB"/>
+      <circle cx="158" cy="148" r="8" fill="#6A4E9E" opacity=".7"/>
+      <circle cx="202" cy="148" r="8" fill="#10A9AB" opacity=".8"/>
+      <circle cx="180" cy="158" r="9" fill="#6A4E9E" opacity=".5"/>
+      <line x1="140" y1="85" x2="180" y2="75" stroke="#6A4E9E" stroke-width="1.2" opacity=".4"/>
+      <line x1="180" y1="75" x2="220" y2="85" stroke="#10A9AB" stroke-width="1.2" opacity=".4"/>
+      <line x1="140" y1="85" x2="120" y2="120" stroke="#6A4E9E" stroke-width="1.2" opacity=".35"/>
+      <line x1="220" y1="85" x2="240" y2="120" stroke="#10A9AB" stroke-width="1.2" opacity=".35"/>
+      <line x1="120" y1="120" x2="158" y2="148" stroke="#10A9AB" stroke-width="1.2" opacity=".35"/>
+      <line x1="240" y1="120" x2="202" y2="148" stroke="#6A4E9E" stroke-width="1.2" opacity=".35"/>
+      <line x1="158" y1="148" x2="180" y2="158" stroke="#6A4E9E" stroke-width="1.2" opacity=".35"/>
+      <line x1="202" y1="148" x2="180" y2="158" stroke="#10A9AB" stroke-width="1.2" opacity=".35"/>
+      <!-- Gap highlight -->
+      <circle cx="120" cy="120" r="18" fill="none" stroke="#F87171" stroke-width="2" stroke-dasharray="4 3" opacity=".7"/>
+      <rect x="70" y="103" width="84" height="18" rx="9" fill="#FEF2F2"/>
+      <text x="112" y="116" text-anchor="middle" font-size="8.5" font-family="sans-serif" font-weight="700" fill="#EF4444">Processing gap</text>
+      <!-- Magnifier -->
+      <circle cx="120" cy="120" r="26" fill="none" stroke="#10A9AB" stroke-width="2.5" opacity=".65"/>
+      <line x1="140" y1="140" x2="156" y2="156" stroke="#10A9AB" stroke-width="3" stroke-linecap="round"/>
+      <!-- Badges -->
+      <rect x="42" y="220" width="115" height="50" rx="12" fill="#6A4E9E"/>
+      <text x="99" y="240" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="white">YOUR EXPERTISE</text>
+      <text x="99" y="255" text-anchor="middle" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,.75)">Clinical assessment</text>
+      <text x="196" y="250" text-anchor="middle" font-size="22" font-weight="700" fill="#10A9AB">+</text>
+      <rect x="210" y="220" width="115" height="50" rx="12" fill="#10A9AB"/>
+      <text x="267" y="240" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="white">DYSOLVE AI</text>
+      <text x="267" y="255" text-anchor="middle" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,.75)">Processing precision</text>
+    </svg>
+  </div>
+</div></div>
+
+<div class="proof"><div class="proof-inner" id="stats-row"></div></div>
+
+<div class="video-section" id="videos">
+  <div class="video-section-inner">
+    <div class="video-header">
+      <p class="s-label">Video Library</p>
+      <h2>See Dysolve in action</h2>
+    </div>
+    <div class="video-frame-wrap">
+      <iframe id="video-iframe" allowfullscreen loading="lazy" title="Dysolve Video Library"></iframe>
+    </div>
+    <div style="text-align:center;margin-top:1.2rem">
+      <a id="video-folder-btn" href="#" target="_blank" class="btn-video">
+        <svg viewBox="0 0 24 24" fill="white" width="16" height="16"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+        Open Full Video Library
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="section"><div class="page">
+  <p class="s-label reveal">For Your Practice</p>
+  <h2 class="s-title reveal" id="how-title"></h2>
+  <p class="s-sub reveal" id="how-sub"></p>
+  <div class="steps" id="steps-grid"></div>
+</div></div>
+
+<div class="section section-teal"><div class="page">
+  <p class="s-label reveal">Human insight + AI precision</p>
+  <h2 class="s-title reveal" id="versus-title"></h2>
+  <div class="versus" id="versus-grid"></div>
+</div></div>
+
+<div class="section"><div class="page">
+  <p class="s-label reveal">Simple Pricing</p>
+  <h2 class="s-title reveal">Scales with your caseload. Cancel anytime.</h2>
+  <div class="pricing-grid">
+    <div class="price-card reveal">
+      <div class="price-badge">✦ For Practitioners</div>
+      <div class="price-amount"><span class="num" style="color:var(--purple)">$99</span><span class="per">/mo per student</span></div>
+      <ul class="feature-list" id="feature-list"></ul>
+      <div class="guarantee-box"><span class="guarantee-icon">🔒</span><span id="guarantee-text"></span></div>
+      <a href="https://dysolve.ai" class="btn btn-primary btn-full" style="background:var(--purple)">Add resolution to your practice →</a>
+    </div>
+    <div class="pricing-illus">
+      <svg viewBox="0 0 240 240" width="200">
+        <circle cx="120" cy="120" r="110" fill="var(--purple-10)" stroke="var(--purple-20)" stroke-width="2"/>
+        <circle cx="120" cy="120" r="78" fill="white" stroke="var(--purple-20)" stroke-width="1.5"/>
+        <text x="120" y="108" text-anchor="middle" font-family="'DM Serif Display',serif" font-size="22" fill="#6A4E9E">Add</text>
+        <text x="120" y="132" text-anchor="middle" font-family="'DM Serif Display',serif" font-size="22" fill="#10A9AB">Resolution</text>
+        <circle cx="120" cy="120" r="108" fill="none" stroke="#6A4E9E" stroke-width="1.5" stroke-dasharray="7 5"/>
+      </svg>
+    </div>
+  </div>
+</div></div>
+
+<div class="section section-alt"><div class="page">
+  <p class="s-label">Common Questions</p>
+  <h2 class="s-title">Questions practitioners ask</h2>
+  <div class="faq-wrap" id="faq-wrap"></div>
+</div></div>
+
+<div class="bottom-cta" style="background:var(--purple)">
+  <h2 id="cta-headline"></h2>
+  <p id="cta-body"></p>
+  <a href="https://dysolve.ai" class="btn-white" style="color:var(--purple)" id="cta-button"></a>
+  <p class="bottom-note" id="cta-note"></p>
+</div>
+
+<footer>
+  <span id="footer-copy"></span>
+  <span>Questions? <a href="https://dysolve.ai">dysolve.ai</a></span>
+</footer>
+
+<script src="assets/content.js"></script>
+<script src="assets/app.js"></script>
+<script>initPage('therapists');</script>
+</body>
+</html>
