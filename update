@@ -1,0 +1,21 @@
+<!-- VIDEO SECTION -->
+<div class="video-section" id="videos">
+  <div class="video-section-inner">
+    <div class="video-header">
+      <p class="s-label">Video Library</p>
+      <h2>See Dysolve in action</h2>
+    </div>
+    <div class="video-frame-wrap">
+      <video id="video-player" width="100%" controls style="max-width: 100%; height: auto;">
+        <source src="assets/videos/parents-video.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div style="text-align:center;margin-top:1.2rem">
+      <a id="video-folder-btn" href="https://drive.google.com/drive/u/2/folders/1Jgl0sFXnJj74yJ8BTDnri9vPzID8CWO3" target="_blank" class="btn-video">
+        <svg viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+        Open Full Video Library
+      </a>
+    </div>
+  </div>
+</div>
